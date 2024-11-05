@@ -1,0 +1,21 @@
+.PocketMon_Insert{
+    margin-top: 20px;
+}
+
+
+.PocketMon_Insert button:hover {
+    background-color: darkgrey;
+    text-decoration: underline;
+}
+
+.PocketMon_Insert button{
+    background-color: lightblue;
+    border-color: aliceblue;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+.PocketMon_Insert button svg{
+     margin-bottom: 5px;
+     text-align: center;
+}

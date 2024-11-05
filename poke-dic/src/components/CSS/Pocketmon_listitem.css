@@ -1,0 +1,45 @@
+.Pocketmon_list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.Pocketmon_list .Card{
+  width: 25%;
+    /* 한 카드의 너비를 25%로 설정하여 4개가 한 줄에 들어가도록 */
+    margin-right: 10px;
+    margin-bottom: 20px;
+    transition: all 0.8s ease-in-out;
+}
+
+.Pocketmon_list .Card:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+/*카드,카드 이미지,카드 텍스트박스 비율 일정하게 조절*/
+.Card img{
+  height: 70%;
+}
+.Card.Body{
+  height: 30%;
+}
+
+
+/*더블클릭시 비활성화 되는 class*/
+.color{
+  color: darkgray;
+  filter: grayscale(100%);
+    /* 이미지를 100% 흑백으로 변환 */
+}
+
+/*삭제 버튼*/
+.remove{
+  background-color: red;
+  border: 1px white;
+  font-weight: 600;
+}
+
+.remove:hover{
+  text-decoration: underline;
+}
